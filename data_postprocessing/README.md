@@ -20,6 +20,12 @@ addpath('/absolute/path/to/data_postprocessing');
 
 Each function accepts the data directory explicitly. The source files can therefore remain separate from experiment data and generated results.
 
+The repository's bundled trajectory data can be reconstructed by following [`data/README.md`](../data/README.md). For example, after extraction, an MSD analysis can target one species and experimental condition:
+
+```matlab
+calculate_msd('../data/raw_data/trajectory/Chlamydomonas/n_0');
+```
+
 ## Mean-squared displacement
 
 ```matlab
