@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite it using these metadata."
+title: "A geometry-driven transport crossover emerges across microbial propulsion modes"
+type: software
+version: 1.0.0
+date-released: 2026-08-21
+authors:
+  - given-names: "Chen"
+    family-names: "Liu"
+    affiliation: >-
+      Laboratory of Impact and Safety Engineering (Ningbo University),
+      Ministry of Education, Ningbo 315201, China
+  - given-names: "Xiangyu"
+    family-names: "Zhang"
+    affiliation: >-
+      Laboratory of Impact and Safety Engineering (Ningbo University),
+      Ministry of Education, Ningbo 315201, China
+  - given-names: "Zhenyu"
+    family-names: "Ouyang"
+    affiliation: >-
+      Laboratory of Impact and Safety Engineering (Ningbo University),
+      Ministry of Education, Ningbo 315201, China
+    orcid: "https://orcid.org/0000-0002-2481-0994"
+  - given-names: "Jianzhong"
+    family-names: "Lin"
+    affiliation: >-
+      Laboratory of Impact and Safety Engineering (Ningbo University),
+      Ministry of Education, Ningbo 315201, China; State Key Laboratory of
+      Fluid Power Transmission and Control, Zhejiang University, Hangzhou
+      310027, China
+    orcid: "https://orcid.org/0000-0001-8418-1176"
+  - given-names: "Nhan"
+    family-names: "Phan-Thien"
+    affiliation: >-
+      Department of Mechanical Engineering, National University of Singapore,
+      Singapore 117575, Singapore; Mekong University (MKU), Vinh Long
+      Province, Vietnam
+    orcid: "https://orcid.org/0000-0003-3716-7907"
+contact:
+  - given-names: "Zhenyu"
+    family-names: "Ouyang"
+    affiliation: >-
+      Laboratory of Impact and Safety Engineering (Ningbo University),
+      Ministry of Education, Ningbo 315201, China
+    email: "ouyangzhenyu@nbu.edu.cn"
+    orcid: "https://orcid.org/0000-0002-2481-0994"
+abstract: >-
+  Code and processed data for studying how obstacle geometry affects transport
+  across Chlamydomonas, Escherichia coli, and Paramecium propulsion modes.
+keywords:
+  - microbial propulsion
+  - active matter
+  - hydrodynamic simulation
+  - particle tracking
+  - transport
+license: MIT
+repository-code: "https://github.com/nbu-fluid-lab/microbial-propulsion-models"

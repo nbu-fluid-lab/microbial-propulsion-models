@@ -7,12 +7,14 @@ This directory contains the derived research dataset associated with the analysi
 | Property | Value |
 | --- | --- |
 | Original filename | `raw_data.tar.gz` |
-| Original size | `161,227,570` bytes |
-| Original SHA-256 | `a5549071d89c767a63e73df303203bda1c7e9ca320ab2a4cf0ba71ad684d1d22` |
+| Original size | `161,262,464` bytes |
+| Original SHA-256 | `5e3b5297f8b9662d5f1fe72b0cbd847b257866a3b1211162a9ab958fc099dab3` |
 | Number of parts | `4` |
 | Maximum part size | `48,000,000` bytes |
 
 The archive contains 220 CSV files with trajectory and normalized analysis data for *Chlamydomonas*, *Escherichia coli*, and *Paramecium*.
+Platform-specific metadata are excluded, and archive ownership, permissions,
+entry ordering, and timestamps are normalized for reproducible packaging.
 
 ## Reassemble the archive
 
@@ -60,3 +62,10 @@ The trajectory directories are grouped by species and experimental condition. Th
 - `RAW_DATA.sha256` records the SHA-256 checksum of the reconstructed archive.
 
 Do not edit individual part files. Any byte-level modification prevents successful verification and reconstruction.
+
+## License
+
+The research data stored in `parts/` and the dataset reconstructed from those
+files are licensed under the [Creative Commons Attribution 4.0 International
+License](LICENSE). The reconstruction script and repository documentation are
+licensed separately under the repository's [MIT License](../LICENSE).

@@ -136,18 +136,56 @@ reproduction package for every manuscript figure:
 Keep input data, generated outputs, parameter choices, software versions, and
 the Git commit identifier together when archiving a result.
 
+## Author information
+
+Affiliations:
+
+1. Laboratory of Impact and Safety Engineering (Ningbo University), Ministry
+   of Education, Ningbo 315201, China
+2. State Key Laboratory of Fluid Power Transmission and Control, Zhejiang
+   University, Hangzhou 310027, China
+3. Department of Mechanical Engineering, National University of Singapore,
+   Singapore 117575, Singapore
+4. Mekong University (MKU), Vinh Long Province, Vietnam
+
+| Author | Affiliation(s) | CRediT contributions |
+| --- | --- | --- |
+| Chen Liu | 1 | Writing - original draft; Software; Data curation |
+| Xiangyu Zhang | 1 | Writing - original draft; Visualization; Data curation; Investigation |
+| Zhenyu Ouyang | 1 | Writing - review and editing; Supervision; Project administration |
+| Jianzhong Lin | 1, 2 | Writing - review and editing |
+| Nhan Phan-Thien | 3, 4 | Writing - review and editing |
+
+Correspondence: Zhenyu Ouyang, `ouyangzhenyu@nbu.edu.cn`.
+
+The authors declare that they have no known competing financial interests or
+personal relationships that could have appeared to influence the work reported
+in this paper.
+
+## Acknowledgments
+
+This work was supported by the National Natural Science Foundation of China
+(Grant Nos. 12572288 and 12132015), the Zhejiang Provincial Natural Science
+Foundation of China (Grant Nos. LR26A020004 and LQN25A020006), and the Ningbo
+Municipal Natural Science Foundation of China (Grant No. 2025J075). The authors
+thank Prof. Gaojin Li for helpful discussions. The numerical calculations were
+performed at the Hefei Advanced Computing Center.
+
 ## Citation
 
 If you use this code or dataset, please cite the associated manuscript:
 
+> Chen Liu, Xiangyu Zhang, Zhenyu Ouyang, Jianzhong Lin, and Nhan Phan-Thien.
 > *A geometry-driven transport crossover emerges across microbial propulsion
 > modes.*
 
-The complete author list, journal reference, DOI, and repository archive DOI
-are not included in the current repository metadata and should be added here
-when available.
+The journal reference, manuscript DOI, and repository archive DOI should be
+added here when available.
 
 ## License
 
-No license file is currently included. Until a license is added, reuse and
-redistribution require permission from the copyright holders.
+The software developed for this project, including the bundled `funtrack-core`
+wheel, and the documentation are licensed under the [MIT License](LICENSE).
+The research dataset stored in `data/parts/` and its reconstructed contents are
+licensed under [CC BY 4.0](data/LICENSE). External dependencies remain subject
+to their own license terms.

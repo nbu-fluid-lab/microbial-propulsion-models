@@ -903,7 +903,7 @@ fclose(fp);*/
             fprintf(fp, "Px=%e\nPy=%e\n", fibers[i].P.x, fibers[i].P.y);
             fprintf(fp, "x=%e\ny=%e\n", fibers[i].x.x, fibers[i].x.y);
             fprintf(fp, "%lf\n%lf\n", fibersPre[i].x.x, fibersPre[i].x.y);
-            fprintf(fp, "ux0=%e\nuy0=%e\nu0=%eRet=%e\n", fibers[i].u.x, fibers[i].u.y, sqrt(pow(fibers[i].u.x, 2) + pow(fibers[i].u.y, 2))), sqrt(pow(fibers[i].u.x, 2) + pow(fibers[i].u.y, 2))*2*belta*(1+alpha)/nju;
+            fprintf(fp, "ux0=%e\nuy0=%e\nu0=%e\nRet=%e\n", fibers[i].u.x, fibers[i].u.y, sqrt(pow(fibers[i].u.x, 2) + pow(fibers[i].u.y, 2)), sqrt(pow(fibers[i].u.x, 2) + pow(fibers[i].u.y, 2))*2*belta*(1+alpha)/nju);
             fprintf(fp, "ux=%e\nuy=%e\nu=%e\n", fibers[i].u.x / (0.50 * (1 + alpha) * BBB1), fibers[i].u.y / (0.50 * (1 + alpha) * BBB1), sqrt(pow(fibers[i].u.x, 2) + pow(fibers[i].u.y, 2)) / (0.50 * (1 + alpha) * BBB1));
             fprintf(fp, "w=%e\n", fibers[i].w);
             fprintf(fp, "theta=%e\n", fibers[i].theta);
