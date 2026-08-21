@@ -1,5 +1,7 @@
 # A geometry-driven transport crossover emerges across microbial propulsion modes
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22043249.svg)](https://doi.org/10.5281/zenodo.22043249)
+
 Code and processed data accompanying the manuscript **"A geometry-driven
 transport crossover emerges across microbial propulsion modes."**
 
@@ -179,8 +181,16 @@ If you use this code or dataset, please cite the associated manuscript:
 > *A geometry-driven transport crossover emerges across microbial propulsion
 > modes.*
 
-The journal reference, manuscript DOI, and repository archive DOI should be
-added here when available.
+Please also cite the archived release:
+
+> Liu, Chen, Zhang, Xiangyu, Ouyang, Zhenyu, Lin, Jianzhong, and Phan-Thien,
+> Nhan. (2026). *A geometry-driven transport crossover emerges across microbial
+> propulsion modes* (v1.0.0). Zenodo.
+> https://doi.org/10.5281/zenodo.22043250
+
+The stable DOI for all repository versions is
+[10.5281/zenodo.22043249](https://doi.org/10.5281/zenodo.22043249). The journal
+reference and manuscript DOI should be added here when available.
 
 ## License
 

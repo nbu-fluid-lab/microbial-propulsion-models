@@ -4,6 +4,7 @@ title: "A geometry-driven transport crossover emerges across microbial propulsio
 type: software
 version: 1.0.0
 date-released: 2026-08-21
+doi: "10.5281/zenodo.22043250"
 authors:
   - given-names: "Chen"
     family-names: "Liu"
