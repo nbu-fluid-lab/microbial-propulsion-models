@@ -47,8 +47,8 @@ contact:
     email: "ouyangzhenyu@nbu.edu.cn"
     orcid: "https://orcid.org/0000-0002-2481-0994"
 abstract: >-
-  Code and processed data for studying how obstacle geometry affects transport
-  across Chlamydomonas, Escherichia coli, and Paramecium propulsion modes.
+  Code and processed data for the paper "A geometry-driven transport crossover
+  emerges across microbial propulsion modes".
 keywords:
   - microbial propulsion
   - active matter
